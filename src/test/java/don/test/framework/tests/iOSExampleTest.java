@@ -14,9 +14,9 @@ public class iOSExampleTest extends TestNGMobile {
             Thread.sleep(5000);
             /*
             WebElement fieldEmail = driver.findElement(AppiumBy.xpath("//XCUIElementTypeApplication[@name='Pivo Tour']/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeTextField"));
-            fieldEmail.sendKeys("automated.test@3i.ai");
+            fieldEmail.sendKeys("");
             WebElement fieldPassword = driver.findElement(AppiumBy.xpath("//XCUIElementTypeApplication[@name='Pivo Tour']/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeSecureTextField"));
-            fieldPassword.sendKeys("3iDev8593");
+            fieldPassword.sendKeys("");
             WebElement btnLogin = driver.findElement(AppiumBy.xpath("//XCUIElementTypeStaticText[@name='로그인']"));
             btnLogin.click();
             */
