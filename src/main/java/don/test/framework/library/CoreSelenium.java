@@ -10,7 +10,7 @@ import java.net.MalformedURLException;
 public class CoreSelenium extends CoreCommon {
 
     public static WebDriver driver;
-    public static String SPACE_NAME = "d-en-en";
+    public static String SPACE_NAME = "d-";
 
     public void launchBrowser() {
         try {
@@ -20,13 +20,13 @@ public class CoreSelenium extends CoreCommon {
             String baseurl = "https://accounts.beamo.dev/";
             if (targetEnv.contains("DEV")) {
                 baseurl = config.getString("BASEURLDEV");
-                SPACE_NAME = "d-en-en";
+                SPACE_NAME = "d-";
             } else if (targetEnv.contains("STAG")) {
                 baseurl = config.getString("BASEURLSTAG");
-                SPACE_NAME = "s-en-en";
+                SPACE_NAME = "s-";
             } else if (targetEnv.contains("LIVE")) {
                 baseurl = config.getString("BASEURLLIVE");
-                SPACE_NAME = "test";
+                SPACE_NAME = "t";
             }
             //String baseurl = config.getString("BASEURL");
 
@@ -92,13 +92,13 @@ public class CoreSelenium extends CoreCommon {
         String baseurl = "https://accounts.beamo.dev/";
         if (targetEnv.contains("DEV")) {
             baseurl = config.getString("BASEURLDEV");
-            SPACE_NAME = "d-en-en";
+            SPACE_NAME = "d-";
         } else if (targetEnv.contains("STAG")) {
             baseurl = config.getString("BASEURLSTAG");
-            SPACE_NAME = "s-en-en";
+            SPACE_NAME = "s-";
         } else if (targetEnv.contains("LIVE")) {
             baseurl = config.getString("BASEURLLIVE");
-            SPACE_NAME = "test";
+            SPACE_NAME = "t";
         }
 
         /* Selenium Grid Mode*/
