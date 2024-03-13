@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test automation framework" parallel="none" verbose="1" >
+    <parameter name="configfile" value="src/test/resources/config.properties" />
+    <test name="test-example" >
+        <groups>
+            <run>
+                <exclude name="abstract_web" />
+                <exclude name="abstract_mobile" />
+                <exclude name="smoke" />
+                <exclude name="template_web" />
+                <exclude name="template_mobile" />
+                <exclude name="grid" />
+                <include name="template_api" />
+                <include name="abstract_api" />
+            </run>
+        </groups>
+
+        <packages>
+            <package name="qa.test.framework.tests.*" />
+        </packages>
+    </test>
+
+</suite>

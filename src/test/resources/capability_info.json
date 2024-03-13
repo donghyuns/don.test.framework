@@ -1,0 +1,55 @@
+[
+  {
+    "name": "iphonexr",
+    "caps": {
+      "xcodeOrgId": "4JQH63J424",
+      "xcodeSigningId": "iPhone Developer",
+      "automationName": "XCUITest",
+      "platformName": "iOS",
+      "platformVersion": "15.6.1",
+      "deviceName": "iPhone XR",
+      "bundleId": "app.pivo.ios.tour",
+      "udid": "00008020-001345390AD2002E"
+    }
+  },
+  {
+    "name": "iphone11pro",
+    "caps": {
+      "xcodeOrgId": "4JQH63J424",
+      "xcodeSigningId": "iPhone Developer",
+      "automationName": "XCUITest",
+      "platformName": "iOS",
+      "platformVersion": "15.3.1",
+      "deviceName": "QA-iPhone 11 Pro",
+      "bundleId": "app.pivo.ios.capture",
+      "udid": "00008030-001C75203432802E"
+    }
+  },
+  {
+      "name": "iphone12pro",
+      "caps": {
+        "platformName": "iOS",
+        "platformVersion": "15.1",
+        "deviceName": "iPhone 12 Pro",
+        "udid": "ce071717ed05981e047e",
+        "noReset": false,
+        "automationName": "XCUITest",
+        "app": "앱의 위치",
+        "bundleId": "앱 id com..."
+      }
+  },
+  {
+    "name": "galaxynote20",
+    "caps": {
+      "platformName": "Android",
+      "platformVersion": "9.0",
+      "deviceName": "Galaxy Note 20",
+      "automationName": "uiAutomator2",
+      "udid": "ce071717ed05981e047e",
+      "noReset": false,
+      "app": "앱의 위치",
+      "appPackage": "app.pivo.android.capture",
+      "appActivity": "app.pivo.android.capture.MainActivity"
+    }
+  }
+]
