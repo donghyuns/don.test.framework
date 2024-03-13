@@ -8,8 +8,8 @@
       "platformName": "iOS",
       "platformVersion": "15.6.1",
       "deviceName": "iPhone XR",
-      "bundleId": "app.pivo.ios.tour",
-      "udid": "00008020-001345390AD2002E"
+      "bundleId": "app.pivo.ios.",
+      "udid": "00008020-"
     }
   },
   {
@@ -21,8 +21,8 @@
       "platformName": "iOS",
       "platformVersion": "15.3.1",
       "deviceName": "QA-iPhone 11 Pro",
-      "bundleId": "app.pivo.ios.capture",
-      "udid": "00008030-001C75203432802E"
+      "bundleId": "app.pivo.ios.",
+      "udid": "00008030-"
     }
   },
   {
@@ -31,7 +31,7 @@
         "platformName": "iOS",
         "platformVersion": "15.1",
         "deviceName": "iPhone 12 Pro",
-        "udid": "ce071717ed05981e047e",
+        "udid": "",
         "noReset": false,
         "automationName": "XCUITest",
         "app": "앱의 위치",
@@ -45,11 +45,11 @@
       "platformVersion": "9.0",
       "deviceName": "Galaxy Note 20",
       "automationName": "uiAutomator2",
-      "udid": "ce071717ed05981e047e",
+      "udid": "",
       "noReset": false,
       "app": "앱의 위치",
-      "appPackage": "app.pivo.android.capture",
-      "appActivity": "app.pivo.android.capture.MainActivity"
+      "appPackage": "app.pivo.android.",
+      "appActivity": "app.pivo.android..MainActivity"
     }
   }
 ]
