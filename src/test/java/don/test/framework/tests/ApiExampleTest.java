@@ -25,8 +25,8 @@ public class ApiExampleTest extends CoreRestAssured {
         String pathUrl = "/aun/p/authn/login/";
 
         HashMap<String, Object> jsonPayload = new HashMap<>();
-        jsonPayload.put("email", "test@3i.ai");
-        jsonPayload.put("password", "3iDev8593");
+        jsonPayload.put("email", "");
+        jsonPayload.put("password", "");
 
         // Sending POST request with Rest-Assured
         response =
